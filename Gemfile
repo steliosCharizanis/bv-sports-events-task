@@ -45,8 +45,11 @@ gem "bootsnap", require: false
 gem 'webpacker'
 
 gem 'net-http', '~> 0.2.2'
+gem 'net-imap', require: false
+gem 'net-pop', require: false
+gem 'net-smtp', require: false
 
-gem 'rake', '~> 13.0.6'
+gem 'rake', '~> 13.0.6', require: false
 
 # Use Sass to process CSS
 # gem "sassc-rails"
