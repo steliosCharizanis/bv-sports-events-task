@@ -49,7 +49,7 @@ gem 'net-imap', require: false
 gem 'net-pop', require: false
 gem 'net-smtp', require: false
 
-gem 'rake', '~> 13.0.6', require: false
+#gem 'rake', '~> 13.0.6'
 
 # Use Sass to process CSS
 # gem "sassc-rails"
