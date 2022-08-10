@@ -1,24 +1,51 @@
-# README
+# Sports events app for bv
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+A Simple single page app for showing sports inplay events
 
-Things you may want to cover:
+##### Prerequisites
 
-* Ruby version
+The setups steps expect following tools installed on the system.
 
-* System dependencies
+- Github
+- Ruby [3.1.0]
+- Rails [7]
 
-* Configuration
+##### 1. Check out the repository
 
-* Database creation
+```bash
+git clone https://github.com/steliosCharizanis/bv-sports-events-task.git
+cd bv-sports-events-task
+```
 
-* Database initialization
+##### 2. Install dependencies
 
-* How to run the test suite
+```bash
+bundle install
+yarn install
+```
+##### 3. Start the Rails server
 
-* Services (job queues, cache servers, search engines, etc.)
+You can start the rails server using the command given below.
 
-* Deployment instructions
+```ruby
+rails s
+```
 
-* ...
+##### 4. Start Webpack dev server
+
+You can start the webpack react dev server using the command given below.
+
+```bash
+./bin/webpack-dev-server
+```
+
+And now you can visit the site with the URL http://localhost:3000
+
+##### 6. Running unit tests
+
+You can run all specs using the command given below
+
+```bash
+rspec
+```
+
